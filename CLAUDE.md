@@ -14,11 +14,11 @@ The todo.md file contains what you have done and what you should do.
 ## Project Overview
 
 This is a world-class poker bot implementation for 3-player Texas Hold'em No-Limit using **Monte Carlo Counterfactual Regret Minimization (MCCFR)** as the core algorithm. 
-The project follows a principled three-phase approach: first achieving low exploitability with MCCFR, then enhancing the strategy with advanced techniques including neural approximation and reinforcement learning for dynamic abstraction optimization.
-
 In particular, I want to use the open source poker bot, DecisionHoldem, to create my heads up poker bot blue print. The link to the github repo is https://github.com/AI-Decision/DecisionHoldem
-
-
+I want to use DecisionHoldem in order to create a baseline heads up model, with 3 goals:
+1) to add a KL‑regularised Reinforcement Learning “exploit” wrapper, which seeks to exploit worse opponents while minimizing increase in own exploitability
+2) to distill tabular strategies to a policy-value neural network (Deep CFR) and add a 1-second sub-game resolve
+3) to implement a 3-handed holdem bot. (This will for sure decrease the quality of our headsup bot, but as long as it can play semi-well, I will be happy)
 
 # Using Gemini CLI for Large Codebase Analysis
 
