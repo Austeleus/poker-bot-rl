@@ -1,8 +1,8 @@
-//#pragma once
-//#include<iostream>
-//#include<exception>
-//#include<string>
-//using namespace std;
+#pragma once
+#include<iostream>
+#include<exception>
+#include<string>
+using namespace std;
 //const static char suit[] = "scdh";
 //const static char rankc[] = "23456789TJQKA";
 //class Card
